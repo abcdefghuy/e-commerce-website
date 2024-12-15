@@ -2,7 +2,7 @@ package org.example.ecommercewebsite.DAO.Impl;
 
 import org.example.ecommercewebsite.DAO.IPersonDAO;
 import org.example.ecommercewebsite.business.Person;
-import org.example.ecommercewebsite.data.DBUtil;
+import org.example.ecommercewebsite.util.DBUtil;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;

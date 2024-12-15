@@ -1,4 +1,4 @@
-package org.example.ecommercewebsite.utils;
+package org.example.ecommercewebsite.util;
 import javax.servlet.http.*;
 
 public class SessionUtils {

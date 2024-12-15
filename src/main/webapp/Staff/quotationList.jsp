@@ -2,7 +2,7 @@
 <%@ page import="java.util.*" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
-<%@ page import="org.example.ecommercewebsite.utils.LabelConverter" %>
+<%@ page import="org.example.ecommercewebsite.util.LabelConverter" %>
 
 <!DOCTYPE html>
 <html lang="en">

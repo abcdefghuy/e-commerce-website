@@ -3,7 +3,8 @@ package org.example.ecommercewebsite.DAO.Impl;
 import org.example.ecommercewebsite.DAO.IUserInfoDAO;
 import org.example.ecommercewebsite.business.Customer;
 import org.example.ecommercewebsite.business.Staff;
-import org.example.ecommercewebsite.data.DBUtil;
+import org.example.ecommercewebsite.util.DBUtil;
+
 
 import javax.persistence.EntityManager;
 import javax.persistence.NoResultException;

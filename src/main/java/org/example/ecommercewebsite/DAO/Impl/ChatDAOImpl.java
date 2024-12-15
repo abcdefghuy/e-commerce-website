@@ -4,7 +4,8 @@ import org.example.ecommercewebsite.DAO.IChatDAO;
 import org.example.ecommercewebsite.business.Customer;
 import org.example.ecommercewebsite.business.Message;
 import org.example.ecommercewebsite.business.Staff;
-import org.example.ecommercewebsite.data.DBUtil;
+import org.example.ecommercewebsite.util.DBUtil;
+
 import javax.persistence.EntityManager;
 import java.util.List;
 import java.util.stream.Collectors;

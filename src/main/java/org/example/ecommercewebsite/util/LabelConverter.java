@@ -1,4 +1,4 @@
-package org.example.ecommercewebsite.utils;
+package org.example.ecommercewebsite.util;
 
 public class LabelConverter {
     public static String convertStatus(String status) {

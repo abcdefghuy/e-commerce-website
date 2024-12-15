@@ -3,7 +3,7 @@ package org.example.ecommercewebsite.controller;
 import org.example.ecommercewebsite.DAO.ICustomerDAO;
 import org.example.ecommercewebsite.business.Customer;
 import org.example.ecommercewebsite.DAO.Impl.CustomerDAOImpl;
-import org.example.ecommercewebsite.utils.MaHoa;
+import org.example.ecommercewebsite.util.MaHoa;
 
 import javax.servlet.*;
 import javax.servlet.annotation.*;

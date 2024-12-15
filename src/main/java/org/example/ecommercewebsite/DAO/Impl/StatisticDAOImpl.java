@@ -2,7 +2,8 @@ package org.example.ecommercewebsite.DAO.Impl;
 import org.example.ecommercewebsite.DAO.IStatisticDAO;
 import org.example.ecommercewebsite.ENumeration.EOrderStatus;
 import org.example.ecommercewebsite.business.*;
-import org.example.ecommercewebsite.data.DBUtil;
+import org.example.ecommercewebsite.util.DBUtil;
+
 import javax.persistence.EntityManager;
 import javax.persistence.TypedQuery;
 import java.util.Collections;

@@ -14,8 +14,8 @@ public class EmailSender {
         properties.put("mail.smtp.port", "587"); // Cổng TLS
 
         // Tài khoản Gmail gửi OTP
-        String myAccountEmail = "phamhoanghuy.2000vn@gmail.com";
-        String password = "xxvb pzff upvb rshu"; // Mật khẩu email hoặc App password
+        String myAccountEmail = "furnitureshop267@gmail.com";
+        String password = "mhtl zdjn hyaj udsa"; // Mật khẩu email hoặc App password
 
         // Xác thực tài khoản Gmail
         Session session = Session.getInstance(properties, new Authenticator() {

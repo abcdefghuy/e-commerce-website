@@ -1,9 +1,10 @@
 package org.example.ecommercewebsite.DAO.Impl;
 
 import org.example.ecommercewebsite.DAO.ICustomerDAO;
-import org.example.ecommercewebsite.data.DBUtil;
+
 
 import org.example.ecommercewebsite.business.Customer;
+import org.example.ecommercewebsite.util.DBUtil;
 
 import javax.persistence.*;
 

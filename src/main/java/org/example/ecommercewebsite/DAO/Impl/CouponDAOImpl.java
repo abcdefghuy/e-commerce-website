@@ -3,7 +3,7 @@ package org.example.ecommercewebsite.DAO.Impl;
 import org.example.ecommercewebsite.DAO.ICouponDAO;
 import org.example.ecommercewebsite.business.Coupon;
 import org.example.ecommercewebsite.business.Furniture;
-import org.example.ecommercewebsite.data.DBUtil;
+
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityTransaction;
@@ -13,6 +13,7 @@ import java.util.List;
 import javax.persistence.*;
 
 import org.example.ecommercewebsite.business.Category;
+import org.example.ecommercewebsite.util.DBUtil;
 
 public class CouponDAOImpl implements ICouponDAO {
 

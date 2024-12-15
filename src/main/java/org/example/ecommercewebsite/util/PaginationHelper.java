@@ -1,4 +1,4 @@
-package org.example.ecommercewebsite.utils;
+package org.example.ecommercewebsite.util;
 
 public class PaginationHelper {
     private  int currentPage;

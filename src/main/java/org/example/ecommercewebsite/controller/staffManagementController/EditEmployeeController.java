@@ -2,10 +2,10 @@ package org.example.ecommercewebsite.controller.staffManagementController;
 
 import org.example.ecommercewebsite.DAO.IStaffDAO;
 import org.example.ecommercewebsite.DAO.Impl.StaffDAOImpl;
-import org.example.ecommercewebsite.data.ImageUtil;
 import org.example.ecommercewebsite.business.Address;
 import org.example.ecommercewebsite.business.Shift;
 import org.example.ecommercewebsite.business.Staff;
+import org.example.ecommercewebsite.util.ImageUtil;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.MultipartConfig;

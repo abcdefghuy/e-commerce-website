@@ -5,7 +5,8 @@ import org.example.ecommercewebsite.ENumeration.EOrderStatus;
 import org.example.ecommercewebsite.business.Customer;
 import org.example.ecommercewebsite.business.Furniture;
 import org.example.ecommercewebsite.business.Order;
-import org.example.ecommercewebsite.data.DBUtil;
+import org.example.ecommercewebsite.util.DBUtil;
+
 
 import javax.persistence.*;
 import java.util.ArrayList;

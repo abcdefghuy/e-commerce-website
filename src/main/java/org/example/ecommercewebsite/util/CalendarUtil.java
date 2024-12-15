@@ -1,4 +1,4 @@
-package org.example.ecommercewebsite.data;
+package org.example.ecommercewebsite.util;
 
 import java.time.LocalDate;
 import java.time.YearMonth;

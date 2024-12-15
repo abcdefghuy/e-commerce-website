@@ -4,9 +4,9 @@ package org.example.ecommercewebsite.DAO.Impl;
 import org.example.ecommercewebsite.DAO.IPaymentDAO;
 import org.example.ecommercewebsite.business.Coupon;
 import org.example.ecommercewebsite.business.Payment;
-import org.example.ecommercewebsite.data.DBUtil;
 import org.example.ecommercewebsite.services.IFurnitureOfOrderService;
 import org.example.ecommercewebsite.services.impl.FurnitureOfOrderServiceImpl;
+import org.example.ecommercewebsite.util.DBUtil;
 
 
 import javax.persistence.*;

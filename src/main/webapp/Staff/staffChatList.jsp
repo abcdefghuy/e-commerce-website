@@ -10,7 +10,7 @@
 
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
-<%@ page import="org.example.ecommercewebsite.utils.ImageUtil" %>
+<%@ page import="org.example.ecommercewebsite.util.ImageUtil" %>
 
 <!DOCTYPE html>
 <html>

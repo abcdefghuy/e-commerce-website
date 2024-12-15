@@ -12,7 +12,7 @@ import org.example.ecommercewebsite.DAO.Impl.PersonDAOImpl;
 import org.example.ecommercewebsite.business.Person;
 import org.example.ecommercewebsite.mail.EmailSender;
 import org.example.ecommercewebsite.mail.OTPGenerater;
-import org.example.ecommercewebsite.utils.MaHoa;
+import org.example.ecommercewebsite.util.MaHoa;
 
 @WebServlet(urlPatterns = {"/forgotPassword", "/ValidateOtp", "/newPassword"})
 public class ForgotPasswordController extends HttpServlet {

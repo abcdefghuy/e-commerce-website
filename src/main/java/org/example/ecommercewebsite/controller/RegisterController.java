@@ -4,7 +4,7 @@ package org.example.ecommercewebsite.controller;
 import org.example.ecommercewebsite.DAO.ICustomerDAO;
 import org.example.ecommercewebsite.DAO.Impl.CustomerDAOImpl;
 import org.example.ecommercewebsite.business.Customer;
-import org.example.ecommercewebsite.utils.ValidationUtils;
+import org.example.ecommercewebsite.util.ValidationUtils;
 
 import javax.servlet.*;
 import javax.servlet.http.HttpServletRequest;

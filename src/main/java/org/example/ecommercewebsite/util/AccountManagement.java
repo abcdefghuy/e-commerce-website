@@ -1,4 +1,4 @@
-package org.example.ecommercewebsite.data;
+package org.example.ecommercewebsite.util;
 
 import java.security.SecureRandom;
 

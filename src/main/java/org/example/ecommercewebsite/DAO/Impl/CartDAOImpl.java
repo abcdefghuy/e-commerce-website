@@ -4,7 +4,8 @@ import org.example.ecommercewebsite.DAO.ICartDAO;
 import org.example.ecommercewebsite.business.Cart;
 import org.example.ecommercewebsite.business.Customer;
 import org.example.ecommercewebsite.business.Furniture;
-import org.example.ecommercewebsite.data.DBUtil;
+import org.example.ecommercewebsite.util.DBUtil;
+
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityTransaction;

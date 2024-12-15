@@ -4,7 +4,7 @@ package org.example.ecommercewebsite.controller;
 import org.example.ecommercewebsite.DAO.IFurnitureDAO;
 import org.example.ecommercewebsite.DAO.Impl.FurnitureDAOImpl;
 import org.example.ecommercewebsite.business.Furniture;
-import org.example.ecommercewebsite.utils.PaginationHelper;
+import org.example.ecommercewebsite.util.PaginationHelper;
 import javax.servlet.*;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;

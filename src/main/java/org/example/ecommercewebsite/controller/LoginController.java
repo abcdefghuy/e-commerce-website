@@ -19,7 +19,7 @@ import org.example.ecommercewebsite.business.Customer;
 import org.example.ecommercewebsite.business.Staff;
 import org.example.ecommercewebsite.business.Owner;
 
-import org.example.ecommercewebsite.utils.MaHoa;
+import org.example.ecommercewebsite.util.MaHoa;
 
 @WebServlet(name = "login", value = "/login")
 public class LoginController extends HttpServlet {

@@ -2,7 +2,7 @@ package org.example.ecommercewebsite.DAO.Impl;
 
 import org.example.ecommercewebsite.DAO.IFeedbackDAO;
 import org.example.ecommercewebsite.business.Feedback;
-import org.example.ecommercewebsite.data.DBUtil;
+import org.example.ecommercewebsite.util.DBUtil;
 
 import javax.persistence.*;
 import java.util.List;

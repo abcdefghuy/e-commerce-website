@@ -1,9 +1,10 @@
 package org.example.ecommercewebsite.DAO.Impl;
 
 import org.example.ecommercewebsite.DAO.IStaffDAO;
-import org.example.ecommercewebsite.data.DBUtil;
+
 import org.example.ecommercewebsite.business.Shift;
 import org.example.ecommercewebsite.business.Staff;
+import org.example.ecommercewebsite.util.DBUtil;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityTransaction;

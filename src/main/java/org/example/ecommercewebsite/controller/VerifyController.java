@@ -13,7 +13,7 @@ import org.example.ecommercewebsite.DAO.Impl.CustomerDAOImpl;
 import org.example.ecommercewebsite.business.Customer;
 import org.example.ecommercewebsite.mail.OTPGenerater;
 import org.example.ecommercewebsite.mail.EmailSender;
-import org.example.ecommercewebsite.utils.MaHoa;
+import org.example.ecommercewebsite.util.MaHoa;
 
 @WebServlet(name = "VerifyServlet", value = "/verifyServlet")
 public class VerifyController extends HttpServlet {
