@@ -1,0 +1,103 @@
+.feedback-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 100px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+.feedback-container h2 {
+    margin-bottom: 15px;
+}
+.emojis-rate {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 15px;
+}
+.emoji-rate {
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+    opacity: 0.6;
+}
+.emoji-rate:hover, .emoji-rate.selected {
+    opacity: 1; /* Sáng lên khi được chọn */
+    transform: scale(1.1); /* Phóng to nhẹ khi được chọn */
+}
+.text-feedback {
+    width: 500px;
+    margin-bottom: 15px;
+    height: 200px !important;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    resize: none;
+    font-size: 16px !important;
+}
+
+.btn-feedback {
+    padding: 8px 16px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #28a745;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin-top: 16px;
+}
+.btn-feedback:hover {
+    background-color: #218838; /* Màu đậm hơn khi hover */
+}
+.btn-feedback:active {
+    transform: scale(0.95);
+}
+.btn-feedback:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(40, 167, 69, 0.5); /* Ánh sáng nhẹ để tạo điểm nhấn khi focus */
+}
+
+.image-upload-container {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 400px;
+}
+
+.image-upload-container h2 {
+    margin-bottom: 15px;
+}
+
+#imageInput {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#previewContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.image-preview {
+    max-width: 80px !important; /* Đảm bảo giới hạn chiều rộng */
+    max-height: 80px !important; /* Đảm bảo giới hạn chiều cao */
+    object-fit: cover !important; /* Duy trì tỉ lệ */
+    border: 2px solid #ddd !important;
+    border-radius: 5px !important;
+}
+
+.image-preview:hover {
+    border-color: #007bff;
+}

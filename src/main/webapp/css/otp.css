@@ -1,0 +1,93 @@
+/* CSS file: main.css */
+
+/* Sử dụng font Montserrat từ Google Fonts */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f6f5f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),
+    0 10px 10px rgba(0, 0, 0, 0.22);
+    padding: 40px;
+    width: 400px;
+    text-align: center;
+}
+
+h1 {
+    color:#3b5d50;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+input[type="email"], input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: none;
+    background-color: #eee;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+button {
+    border-radius: 20px;
+    border: 1px solid  #BFBFBF;
+    background-color: #3b5d50;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 12px 45px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: transform 80ms ease-in;
+    cursor: pointer;
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+button:hover {
+    background-color: #FF4B2B;
+}
+
+button:focus {
+    outline: none;
+}
+
+input:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(255, 75, 43, 0.5);
+}
+
+h1.message {
+    color: #FF4B2B;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.hidden {
+    display: none;
+}
+

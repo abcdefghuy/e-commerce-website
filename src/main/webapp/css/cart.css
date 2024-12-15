@@ -1,0 +1,12 @@
+.custom-checkbox {
+    width: 18px;
+    height: 18px;
+    accent-color: #4CAF50; /* Change checkbox color to green */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer;
+}
+
+.custom-checkbox:hover {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    transform: scale(1.1);
+}

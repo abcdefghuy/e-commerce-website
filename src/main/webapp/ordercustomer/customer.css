@@ -1,0 +1,25 @@
+#customer-info {
+    line-height: 2; /* Tăng khoảng cách giữa các hàng */
+    display: flex;
+    flex-direction: column; /* Xếp các mục thành cột */
+    margin-top: 10px; /* Khoảng cách trên */
+}
+
+#customer-info > div {
+    display: flex; /* Đặt mỗi hàng thành một dòng ngang */
+    margin-bottom: 8px; /* Khoảng cách giữa các dòng */
+}
+
+#customer-info > div:last-child {
+    margin-bottom: 0; /* Xóa khoảng cách dưới cùng */
+}
+
+#customer-info span:first-child {
+    font-weight: bold; /* Chữ đậm cho tiêu đề */
+    width: 120px; /* Đặt chiều rộng cố định cho tiêu đề */
+}
+
+#customer-info span:last-child {
+    font-style: italic; /* Chữ nghiêng cho nội dung */
+    color: #555; /* Màu chữ trung tính */
+}

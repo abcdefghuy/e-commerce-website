@@ -1,0 +1,140 @@
+/* Modal tổng thể */
+#orderModalContent {
+    border-radius: 8px; /* Bo góc modal */
+    overflow: hidden; /* Ẩn phần thừa khi nội dung tràn */
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2); /* Đổ bóng */
+    background-color: #fff; /* Nền trắng */
+}
+
+/* Header modal */
+#orderModalHeader {
+    background: linear-gradient(to right, #17a2b8, #00bfff); /* Gradient từ xanh biển nhạt đến đậm */
+    color: white; /* Chữ trắng */
+    padding: 15px 20px; /* Khoảng cách bên trong */
+    font-weight: bold; /* Chữ in đậm */
+    font-size: 1.2rem; /* Kích thước chữ lớn */
+    border-bottom: 2px solid #dee2e6; /* Viền dưới header */
+}
+
+/* Body modal */
+#orderModalBody {
+    padding: 20px; /* Khoảng cách nội dung */
+    font-size: 1rem; /* Kích thước chữ chuẩn */
+    color: #333; /* Chữ đen nhạt */
+}
+
+/* Container chính cho Thông Tin Thanh Toán */
+#paymentInfo {
+    background-color: #f8f9fa; /* Nền xám nhạt */
+    padding: 15px; /* Khoảng cách bên trong */
+    border: 1px solid #dee2e6; /* Viền xám nhạt */
+    border-radius: 8px; /* Bo góc */
+    margin-bottom: 20px; /* Khoảng cách dưới */
+}
+
+/* Tiêu đề chính cho Thông Tin Thanh Toán */
+#paymentInfo h5 {
+    font-size: 1.2rem; /* Kích thước chữ lớn */
+    font-weight: bold; /* Chữ in đậm */
+    color: #007bff; /* Màu xanh biển */
+    margin-bottom: 15px; /* Khoảng cách dưới tiêu đề */
+}
+
+/* Bảng hiển thị thông tin */
+#paymentInfo table {
+    width: 100%; /* Chiếm toàn bộ chiều rộng */
+    border-collapse: collapse; /* Gộp viền */
+}
+
+/* Hàng trong bảng */
+#paymentInfo table tr {
+    border-bottom: 1px solid #dee2e6; /* Viền dưới mỗi hàng */
+}
+
+/* Cột đầu tiên: nhãn thông tin */
+.payment-label {
+    font-weight: bold; /* Chữ đậm */
+    color: #333; /* Chữ đen đậm */
+    padding: 10px; /* Khoảng cách bên trong ô */
+    width: 30%; /* Chiều rộng cố định */
+}
+
+/* Cột thứ hai: giá trị thông tin */
+.payment-value {
+    padding: 10px; /* Khoảng cách bên trong ô */
+    color: #555; /* Chữ đen nhạt */
+    text-align: left; /* Căn lề trái */
+}
+
+/* Hiệu ứng hover cho hàng trong bảng */
+#paymentInfo table tr:hover {
+    background-color: #e9ecef; /* Nền xám nhạt khi hover */
+}
+
+
+/* Danh sách sản phẩm */
+#productList h5 {
+    font-size: 1.1rem; /* Kích thước chữ lớn hơn */
+    font-weight: bold; /* Chữ in đậm */
+    color: #007bff; /* Chữ xanh biển */
+    margin-bottom: 10px; /* Khoảng cách dưới */
+}
+
+/* Bảng sản phẩm */
+.table1 {
+    width: 100%; /* Chiếm toàn bộ chiều rộng */
+    margin-bottom: 1rem; /* Khoảng cách dưới */
+    color: #212529; /* Chữ đen đậm */
+    border-collapse: collapse; /* Gộp viền */
+}
+
+.table th1 {
+    background-color: #c5c6c7; /* Nền xanh biển */
+    color: white; /* Chữ trắng */
+    text-align: center; /* Căn giữa chữ */
+    padding: 8px; /* Khoảng cách trong ô */
+    font-weight: bold; /* Chữ in đậm */
+    border: 1px solid #dee2e6; /* Viền xám nhạt */
+}
+
+.table td1 {
+    padding: 8px; /* Khoảng cách trong ô */
+    text-align: center; /* Căn giữa chữ */
+    border: 1px solid #dee2e6; /* Viền xám nhạt */
+    font-size: 0.95rem; /* Kích thước chữ nhỏ */
+    color: #f9fbfd; /* Chữ đen nhạt */
+}
+
+.table-responsive1 {
+    overflow-x: auto; /* Cuộn ngang nếu nội dung quá dài */
+    margin-top: 10px; /* Khoảng cách trên */
+}
+
+/* Badge trạng thái */
+.badge.bg-success {
+    background-color: #28a745; /* Màu xanh lá cây */
+    color: white; /* Chữ trắng */
+}
+
+.badge.bg-danger {
+    background-color: #dc3545; /* Màu đỏ */
+    color: white; /* Chữ trắng */
+}
+
+.badge.bg-warning {
+    background-color: #ffc107; /* Màu vàng */
+    color: black; /* Chữ đen */
+}
+
+/* Footer modal */
+#orderModalFooter {
+    background-color: #f8f9fa; /* Nền xám nhạt */
+    border-top: 2px solid #dee2e6; /* Viền trên */
+    padding: 15px; /* Khoảng cách bên trong */
+}
+
+#orderModalFooter .btn {
+    font-size: 1rem; /* Kích thước chữ chuẩn */
+    border-radius: 5px; /* Bo góc */
+    padding: 10px 20px; /* Khoảng cách bên trong */
+}

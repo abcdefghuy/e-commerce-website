@@ -1,0 +1,114 @@
+#coupon-title{
+    font-size: 15px;
+    margin-top: -20px;
+}
+.payment {
+    font-weight: bold; /* Tăng độ đậm của chữ */
+    color: black;
+}
+.content-payment {
+    text-align: justify;
+    color: red;
+}
+#btn-payment,#btn-confirm,#btn-back {
+    padding: 10px;
+    font-size: 16px;
+    display: block; /* Đặt nút như một khối */
+    margin: 0 auto; /* Căn giữa theo chiều ngang */
+}
+/* Ẩn modal mặc định */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 8000; /* Đặt trên cùng */
+    top: 50%; /* Đặt vào giữa theo chiều dọc */
+    left: 50%; /* Đặt vào giữa theo chiều ngang */
+    transform: translate(-50%, -50%); /* Dịch chuyển để căn giữa modal */
+    width: 100%; /* Giảm chiều rộng của modal */
+    height: 100vh; /* Chiều cao tự động */
+    background-color: rgba(0, 0, 0, 0.4); /* Nền mờ */
+}
+
+/* Nội dung của modal */
+.modal-content {
+    background-color: white;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 40%;
+}
+/* Đảm bảo modal không bị di chuyển */
+body.modal-open {
+    overflow: hidden; /* Ngăn cuộn khi modal mở */
+}
+
+/* Nút đóng modal */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#qr-code-container img {
+    width: 100%;
+    height: auto;
+}
+.countdown {
+    font-size: 24px;
+    font-weight: bold;
+    color: red;
+    margin: 10px 0;
+}
+/* Lớp phủ toàn trang */
+#overlay {
+    position: fixed;  /* Đảm bảo nó phủ toàn bộ màn hình */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.7);  /* Màu nền nửa trong suốt */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;  /* Đảm bảo lớp phủ ở trên các phần tử khác */
+}
+
+#loadingMessage {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button#confirmCloseYes {
+    background-color: #f44336;
+    color: white;
+}
+
+button#confirmCloseNo {
+    background-color: #4CAF50;
+    color: white;
+}
+/* Đặt hai nút nằm ngang và cách xa nhau */
+.modal-content .button-group {
+    display: flex;
+    justify-content: space-between; /* Tạo khoảng cách đều giữa các nút */
+    margin-top: 20px;
+}
+
+
